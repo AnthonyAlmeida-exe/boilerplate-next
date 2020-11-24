@@ -10,7 +10,7 @@
     "test": "jest",
     "test:watch": "yarn test --watch",
     "story": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": " build-storybook -s ./public"
   },
   "husky": {
     "hooks": {
@@ -29,6 +29,7 @@
     "eslint": "^7.14.0",
     "eslint-plugin-react": "^7.21.5",
     "next": "10.0.2",
+    "next-pwa": "^3.1.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "styled-components": "^5.2.1"
@@ -36,9 +37,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.8",
     "@babel/preset-typescript": "^7.12.7",
-
     "@storybook/addon-essentials": "^6.1.5",
-
     "@storybook/react": "^6.1.5",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
